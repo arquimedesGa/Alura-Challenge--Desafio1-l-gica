@@ -18,10 +18,10 @@
     <main>
         <section class="form-box">
             <form class="form" onsubmit="return false">
-                <label for="name">Apenas letras minúsculas, sem acento</label>
+                <label for="name" class="etiqueta">Apenas letras minúsculas, sem acento</label>
                 <input type="text" id="name" placeholder="insira seu texto aqui">
-                <input type="submit" value="Criptografar" id="botonCrip" for="name">
-                <input type="submit" value="Descriptografar" id="botonDescrip" for="name">
+                <input type="submit" value="Criptografar" id="botonCrip" for="name" class="botones">
+                <input type="submit" value="Descriptografar" id="botonDescrip" for="name" class="botones">
             </form>
         </section>
 
@@ -29,7 +29,9 @@
             <h2 id="titulo-mensagem" >Mensagem Criptografada</h2>
             <br>
             <div id="mensagem-ocultar">
-                <h3>Mensaje de teste tiene que desaparecer con la accion de desencriptar ou encriptar codigo</h3>
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que voce deseja Criptografar ou Descriptografar</p>
+                <img src="lupa.png" alt="lupa imagen">
             </div>
             <br>
             <p class="text-input" id="msg"></p>

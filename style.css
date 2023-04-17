@@ -38,16 +38,18 @@ main {
 }
 
 .botones {
+    border-radius: 32px;
+    background: #ffffff;
+    border: 1px solid #000000;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: absolute;
-    width: 680px;
+    border-radius: 32px;
+    width: 300px;
     height: 48px;
-    left: 240px;
-    top: 240px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 300px;
 
 }
 
@@ -60,4 +62,50 @@ main {
     top: 100px;
     border-radius: 32px;
     text-align: center;
+}
+
+.etiqueta {
+    position: relative;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#name {
+    padding-top: 10px;
+    position: relative;
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-left: 60px;
+}
+
+button {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 500px;
+    border-radius: 32px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 32px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 100px;
+    border-radius: 32px;
 }
